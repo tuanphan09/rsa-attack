@@ -1,1 +1,3 @@
-# rsa-attack
+# Adaptive Chosen Ciphertext Attack on RSA PKCS #1 v1.5
+This specific attack exploits the implementation flaws found in numerous servers, that is, they report whether the encoding of the message they have received is PKCS1-conforming. This allows the attacker to use the server as an oracle to which he sends several queries. Based upon the server’s reply, the attacker can gain information about the complete decryption of an intercepted ciphertext (hence the adaptive chosen ciphertext bit).
+[Chosen Ciphertext Attacks Against Protocols Based on the RSA Encryption Standard PKCS #1](http://archiv.infsec.ethz.ch/education/fs08/secsem/bleichenbacher98.pdf)
